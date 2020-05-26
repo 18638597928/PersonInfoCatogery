@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PersonInfoCatogery_Example' do
+  pod 'PersonInfoCatogery', :path => '../'
+
+  target 'PersonInfoCatogery_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
