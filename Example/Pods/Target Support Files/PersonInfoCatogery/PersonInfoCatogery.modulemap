@@ -1,0 +1,6 @@
+framework module PersonInfoCatogery {
+  umbrella header "PersonInfoCatogery-umbrella.h"
+
+  export *
+  module * { export * }
+}
